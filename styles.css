@@ -8,9 +8,13 @@
   
   body {
     font-family: 'montserrat', sans-serif;
-    background-image: url('greenwood_lake_foliage_autumn_fall-wallpaper-1366x768.jpg');
+    background-image: url('bg.jpg');
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  
   }
   
   .app-wrapper {
@@ -33,7 +37,7 @@
     padding: 10px 15px;
     border: none;
     outline: none;
-    background-color: black;
+    background-color:white;
     border-radius: 16px 0px 16px 0px;
     border-bottom: 3px solid #DF8E00;
     
@@ -99,5 +103,5 @@
   footer{
     font-style: italic;
     font-weight: bold;
-  
+    color: #FFF;
   }
