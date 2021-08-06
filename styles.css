@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background :transparent;
+ text-align: center;
    }
   
   body {
@@ -93,4 +94,10 @@
     font-size: 24px;
     font-weight: 500;
     text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  footer{
+    font-style: italic;
+    font-weight: bold;
+  
   }
